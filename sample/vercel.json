@@ -4,6 +4,9 @@
         "src": "smkds.html",
         "use": "@vercel/static"
       }
+    ],
+    "rewrites":[
+       { "source": "/(.*)", "destination": "/"}
     ]
   }
   
